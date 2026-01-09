@@ -143,3 +143,72 @@ nav ul li {
    color: #ffffff;
    font-size: 14px;
 }
+
+/* Main Cards Section Styles */
+.cards-container {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 60px 60px 0px 60px;
+}
+
+.cards-container h3, .main-part-content h3 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px auto 16px auto;
+}
+
+.cards-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-png {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F95555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.card h5 {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding: 24px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 44px auto;
+    gap: 24px;
+    width: 85%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+    background-color: white;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 rgb(0, 0, 0, 0.06);
+    padding: 24px;
+}
+
+.card p {
+    width: 274px;
+    height: 40px;
+}
