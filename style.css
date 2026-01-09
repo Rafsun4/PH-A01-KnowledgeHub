@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.font-inter {
     font-family: 'Inter', sans-serif;
     font-optical-sizing: auto;
 }
+
+
 
 /* Shared Styles */
 
@@ -152,7 +151,7 @@ nav ul li {
     padding: 60px 60px 0px 60px;
 }
 
-.cards-container h3, .main-part-content h3 {
+.cards-container h3, .solution-content h3 {
     color: #001931;
     font-size: 48px;
     font-weight: bold;
@@ -211,4 +210,127 @@ nav ul li {
 .card p {
     width: 274px;
     height: 40px;
+}
+
+/* Solution Section Styles */
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px auto;
+    width: 85%;
+    gap: 60px;
+}
+
+.solution-content h6 {
+    font-weight: 500;
+    color: #30B868;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 4px 0 16px 0px;
+}
+
+.checked-part {
+    margin-top: 40px;
+}
+
+.checked-part p {
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.checked-part p img {
+    margin: -4px 6px -4px 0;
+}
+
+/* CTA Section Styles */
+.cta {
+    background-color: #F7F6F2;
+    width: 85%;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cta h2 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.cta p {
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #001931;
+    margin: 120px auto 0;
+}
+
+.footer-elements { 
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+footer hr {
+    width: 100%;
+    border: 1px solid #E5E7EB;
+    opacity: 0.2;
+    margin: 80px 0 30px 0;
+}
+
+.footer-social p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 120px;
+    padding-bottom: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-links a {
+    padding-top: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    color: #001931;
+    border-radius: 50%;
+}
+
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 300;
 }
